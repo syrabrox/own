@@ -119,7 +119,11 @@ dateConfig.create()
 # new_time_seconds = add_time(current_time, seconds=5)
 
 def run_thinker(duration, unit):
-    print(f"Running thinker for {duration} {unit}")
+    print(f"Running thinker for {duration} {unit}") # Minutes Hours
+    if unit == "Hours":
+        return duration * 60 * 60
+    else:
+        return duration * 60 
 
 def submit_action():
     global duration, unit, error_label, root
@@ -137,7 +141,7 @@ def submit_action():
         print(e)
         error_label.config(text="Duration can't be Null or a String.")
 
-def configRoot():
+def configRoot(): 
     global error_label, duration, unit, root
     root = tk.Tk()
     width = 300
